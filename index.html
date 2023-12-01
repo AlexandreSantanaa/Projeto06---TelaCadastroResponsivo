@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="formulario de cadastro responsivo">
+        <meta name="keywords" content="cadastro">
+        <meta name="author" content="Alexandre Lemes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="img/person-solid.svg" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <title>Formulario de Cadastro</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="img/undraw_shopping_re_hdd9.svg" alt="imagem de um desenho de uma mulher tocando em uma tela gigante e escolhendo partes da roupa de outra mulher">
+            </div>
+
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Login</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro Nome</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input type="tel" id="number" name="number" placeholder="Digite seu telefone" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="password" placeholder="Digite sua senha" required> 
+                        </div>
+
+                        <div class="input-box">
+                            <label for="confirmpassword">Confirme sua senha</label>
+                            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Digite sua senha" required> 
+                        </div>
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gêneros</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="others"name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
